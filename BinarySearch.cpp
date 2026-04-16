@@ -9,7 +9,18 @@ void input()
 {
     while (true)
     {
+       cout << "Masukkan banyak element pada array (maksimal 10): ";
+       cin >> nPanjang;
        
+       if (nPanjang <=10)
+       {
+           break;
+       }
+       else
+       {
+           cout << "\n[!] Jumlah element tidak boleh lebih dari 10. Silakan coba lagi.\n ";
+       }
     }
-    
+
+
 }
